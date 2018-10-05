@@ -5,12 +5,6 @@
 //  Copyright © 2018 Ruslan Syanov. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class ViewController: UIViewController {
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-  }
-}
-
+protocol LaunchInteractorOutput: class {}

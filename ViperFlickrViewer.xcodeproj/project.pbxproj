@@ -7,11 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44242B182156B5B500F0419A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B172156B5B500F0419A /* ViewController.swift */; };
 		44242B3D2156B97200F0419A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B302156B97200F0419A /* AppDelegate.swift */; };
 		44242B3E2156B97200F0419A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44242B342156B97200F0419A /* LaunchScreen.storyboard */; };
 		44242B3F2156B97200F0419A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44242B362156B97200F0419A /* Main.storyboard */; };
 		44242B402156B97200F0419A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44242B3C2156B97200F0419A /* Assets.xcassets */; };
+		44242B932156D2D100F0419A /* LaunchConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B832156D2D100F0419A /* LaunchConfigurator.swift */; };
+		44242B942156D2D100F0419A /* LaunchInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B842156D2D100F0419A /* LaunchInitializer.swift */; };
+		44242B952156D2D100F0419A /* LaunchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B862156D2D100F0419A /* LaunchPresenter.swift */; };
+		44242B962156D2D100F0419A /* LaunchModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B872156D2D100F0419A /* LaunchModuleInput.swift */; };
+		44242B972156D2D100F0419A /* LaunchViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B892156D2D100F0419A /* LaunchViewOutput.swift */; };
+		44242B982156D2D100F0419A /* LaunchViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B8A2156D2D100F0419A /* LaunchViewInput.swift */; };
+		44242B992156D2D100F0419A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B8B2156D2D100F0419A /* LaunchViewController.swift */; };
+		44242B9A2156D2D100F0419A /* LaunchInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B8D2156D2D100F0419A /* LaunchInteractorInput.swift */; };
+		44242B9B2156D2D100F0419A /* LaunchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B8E2156D2D100F0419A /* LaunchInteractor.swift */; };
+		44242B9C2156D2D100F0419A /* LaunchInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B8F2156D2D100F0419A /* LaunchInteractorOutput.swift */; };
+		44242B9D2156D2D100F0419A /* LaunchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B912156D2D100F0419A /* LaunchRouter.swift */; };
+		44242B9E2156D2D100F0419A /* LaunchRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44242B922156D2D100F0419A /* LaunchRouterInput.swift */; };
+		443BBC65216809E500B9AA66 /* ApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443BBC64216809E500B9AA66 /* ApplicationRouter.swift */; };
+		443BBC6721680A8000B9AA66 /* ApplicationRouterDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443BBC6621680A8000B9AA66 /* ApplicationRouterDefault.swift */; };
+		443BBC6A21680E8000B9AA66 /* StoryboardAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443BBC6921680E8000B9AA66 /* StoryboardAssembly.swift */; };
+		44F03C1D2168081000B9B717 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F03C1C2168081000B9B717 /* ApplicationAssembly.swift */; };
 		C14E53D4FA8E377079FBC5AD /* Pods_ViperFlickrViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D186C8ED715ED7154D0D0635 /* Pods_ViperFlickrViewer.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,12 +34,27 @@
 		01D37B2A8B6CE721AA236508 /* Pods-ViperFlickrViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperFlickrViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperFlickrViewer/Pods-ViperFlickrViewer.release.xcconfig"; sourceTree = "<group>"; };
 		2EB3D379EE9D6BFDC05DA79F /* Pods-ViperFlickrViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperFlickrViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperFlickrViewer/Pods-ViperFlickrViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		44242B122156B5B500F0419A /* ViperFlickrViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperFlickrViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44242B172156B5B500F0419A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44242B212156B5B800F0419A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44242B302156B97200F0419A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44242B352156B97200F0419A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44242B372156B97200F0419A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44242B3C2156B97200F0419A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44242B832156D2D100F0419A /* LaunchConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchConfigurator.swift; sourceTree = "<group>"; };
+		44242B842156D2D100F0419A /* LaunchInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchInitializer.swift; sourceTree = "<group>"; };
+		44242B862156D2D100F0419A /* LaunchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchPresenter.swift; sourceTree = "<group>"; };
+		44242B872156D2D100F0419A /* LaunchModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchModuleInput.swift; sourceTree = "<group>"; };
+		44242B892156D2D100F0419A /* LaunchViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewOutput.swift; sourceTree = "<group>"; };
+		44242B8A2156D2D100F0419A /* LaunchViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewInput.swift; sourceTree = "<group>"; };
+		44242B8B2156D2D100F0419A /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		44242B8D2156D2D100F0419A /* LaunchInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchInteractorInput.swift; sourceTree = "<group>"; };
+		44242B8E2156D2D100F0419A /* LaunchInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchInteractor.swift; sourceTree = "<group>"; };
+		44242B8F2156D2D100F0419A /* LaunchInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchInteractorOutput.swift; sourceTree = "<group>"; };
+		44242B912156D2D100F0419A /* LaunchRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchRouter.swift; sourceTree = "<group>"; };
+		44242B922156D2D100F0419A /* LaunchRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchRouterInput.swift; sourceTree = "<group>"; };
+		443BBC64216809E500B9AA66 /* ApplicationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationRouter.swift; sourceTree = "<group>"; };
+		443BBC6621680A8000B9AA66 /* ApplicationRouterDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationRouterDefault.swift; sourceTree = "<group>"; };
+		443BBC6921680E8000B9AA66 /* StoryboardAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardAssembly.swift; sourceTree = "<group>"; };
+		44F03C1C2168081000B9B717 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
 		D186C8ED715ED7154D0D0635 /* Pods_ViperFlickrViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperFlickrViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +136,8 @@
 		44242B2E2156B97200F0419A /* ApplicationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				44F03C1B2167F14C00B9B717 /* Assemblies */,
+				44F03C1A2167F10300B9B717 /* Routers */,
 				44242B2F2156B97200F0419A /* AppDelegates */,
 			);
 			path = ApplicationLayer;
@@ -129,7 +161,7 @@
 		44242B322156B97200F0419A /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				44242B172156B5B500F0419A /* ViewController.swift */,
+				443BBC6821680E6300B9AA66 /* Assemblies */,
 				44242B332156B97200F0419A /* Storyboard */,
 				44242B382156B97200F0419A /* Extensions */,
 				44242B392156B97200F0419A /* Common */,
@@ -164,6 +196,7 @@
 		44242B3A2156B97200F0419A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				44242B812156D2D100F0419A /* Launch */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -174,6 +207,90 @@
 				44242B3C2156B97200F0419A /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		44242B812156D2D100F0419A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				44242B822156D2D100F0419A /* Assembly */,
+				44242B852156D2D100F0419A /* Presenter */,
+				44242B882156D2D100F0419A /* View */,
+				44242B8C2156D2D100F0419A /* Interactor */,
+				44242B902156D2D100F0419A /* Router */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		44242B822156D2D100F0419A /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				44242B832156D2D100F0419A /* LaunchConfigurator.swift */,
+				44242B842156D2D100F0419A /* LaunchInitializer.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		44242B852156D2D100F0419A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				44242B862156D2D100F0419A /* LaunchPresenter.swift */,
+				44242B872156D2D100F0419A /* LaunchModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		44242B882156D2D100F0419A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44242B892156D2D100F0419A /* LaunchViewOutput.swift */,
+				44242B8A2156D2D100F0419A /* LaunchViewInput.swift */,
+				44242B8B2156D2D100F0419A /* LaunchViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44242B8C2156D2D100F0419A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				44242B8D2156D2D100F0419A /* LaunchInteractorInput.swift */,
+				44242B8E2156D2D100F0419A /* LaunchInteractor.swift */,
+				44242B8F2156D2D100F0419A /* LaunchInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		44242B902156D2D100F0419A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				44242B912156D2D100F0419A /* LaunchRouter.swift */,
+				44242B922156D2D100F0419A /* LaunchRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		443BBC6821680E6300B9AA66 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				443BBC6921680E8000B9AA66 /* StoryboardAssembly.swift */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		44F03C1A2167F10300B9B717 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				443BBC64216809E500B9AA66 /* ApplicationRouter.swift */,
+				443BBC6621680A8000B9AA66 /* ApplicationRouterDefault.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		44F03C1B2167F14C00B9B717 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				44F03C1C2168081000B9B717 /* ApplicationAssembly.swift */,
+			);
+			path = Assemblies;
 			sourceTree = "<group>";
 		};
 		A85EF731C4719509678E0783 /* Frameworks */ = {
@@ -195,6 +312,7 @@
 				44242B0E2156B5B500F0419A /* Sources */,
 				44242B0F2156B5B500F0419A /* Frameworks */,
 				44242B102156B5B500F0419A /* Resources */,
+				529FBDD3F8007BB050AF704E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +370,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		529FBDD3F8007BB050AF704E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViperFlickrViewer/Pods-ViperFlickrViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperFlickrViewer/Pods-ViperFlickrViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		72F798AE924C3EF43C9163F3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,8 +413,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44242B932156D2D100F0419A /* LaunchConfigurator.swift in Sources */,
+				44F03C1D2168081000B9B717 /* ApplicationAssembly.swift in Sources */,
+				44242B962156D2D100F0419A /* LaunchModuleInput.swift in Sources */,
+				44242B9A2156D2D100F0419A /* LaunchInteractorInput.swift in Sources */,
+				443BBC6721680A8000B9AA66 /* ApplicationRouterDefault.swift in Sources */,
+				44242B942156D2D100F0419A /* LaunchInitializer.swift in Sources */,
+				44242B9B2156D2D100F0419A /* LaunchInteractor.swift in Sources */,
 				44242B3D2156B97200F0419A /* AppDelegate.swift in Sources */,
-				44242B182156B5B500F0419A /* ViewController.swift in Sources */,
+				443BBC65216809E500B9AA66 /* ApplicationRouter.swift in Sources */,
+				44242B9E2156D2D100F0419A /* LaunchRouterInput.swift in Sources */,
+				44242B9C2156D2D100F0419A /* LaunchInteractorOutput.swift in Sources */,
+				44242B952156D2D100F0419A /* LaunchPresenter.swift in Sources */,
+				443BBC6A21680E8000B9AA66 /* StoryboardAssembly.swift in Sources */,
+				44242B9D2156D2D100F0419A /* LaunchRouter.swift in Sources */,
+				44242B982156D2D100F0419A /* LaunchViewInput.swift in Sources */,
+				44242B992156D2D100F0419A /* LaunchViewController.swift in Sources */,
+				44242B972156D2D100F0419A /* LaunchViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
